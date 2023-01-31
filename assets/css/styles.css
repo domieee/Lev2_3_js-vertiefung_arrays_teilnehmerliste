@@ -1,18 +1,5 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.selected {
-  background-color: #0000ff;
-  color: #fff;
-}
-
-/*# sourceMappingURL=styles.css.map */
