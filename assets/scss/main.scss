@@ -22,6 +22,7 @@
 @import './base/_reset.scss';
 
 
-body {
-
+.selected {
+    background-color: #0000ff;
+    color: #fff;
 }
