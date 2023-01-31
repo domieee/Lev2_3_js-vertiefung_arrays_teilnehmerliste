@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Lev2_3_js-vertiefung_arrays_teilnehmerliste</title>
+</head>
+
+<!-- 
+
+Programmiere ein HTML-Formular mit einem Input-Feld und den beiden Buttons “hinzufügen” und “rückgängig”
+Bei Klick auf “hinzufügen” soll einem Array der Text, welcher im Formularfeld eingegeben wurde, hinzugefügt werden.
+
+Gleichzeitig soll das Array ins HTML geschrieben werden. Vielleicht als Liste? Suche im Internet oder Dokumentation nach einer Möglichkeit.
+
+Bei Klick auf den Button “rückgängig” soll das letzte Element (zuletzt hinzugefügt) wieder entfernt werden.
+
+Außerdem soll das aktualisierte Array wieder auf der Seite ausgegeben werden.
+
+Überleg dir ein ansprechendes Design für deine Liste.
+
+--> 
+
+<body>
+    <h1>Teilnehmerverwaltung</h1>
+
+    <form onsubmit="return false">
+        <input type="text" name="participant" id="participant" placeholder="Namen eingeben" required>
+        <button class="push button">Teilnehmer hinzufügen</button>
+    </form>
+
+    <h2>Teilnehmer</h2>
+    <p class="note">
+        Wählen sie einen Teilnehmer aus und klicken sie auf 'Teilnehmer entfernen'. <br \>
+        Wenn kein Teilnehmer ausgewählt ist, wird der letzte in der Liste entfernt
+    </p>
+
+    <table class="table">
+        <tr>
+            <th>Nr.</th>
+            <th>Name</th>
+        </tr>
+    </table>
+
+    <button class="pop button">Teilnehmer entfernen</button>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
